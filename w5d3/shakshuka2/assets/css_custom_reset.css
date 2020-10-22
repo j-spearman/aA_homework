@@ -1,0 +1,61 @@
+html, body, div, span, h1, h2, h3, h4, a, ol, ul, li, form, label, article, aside, figure, figcaption, footer, header, nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1.5;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+input[type="radio"], select, input[type="submit"] {
+  cursor: pointer;
+  outline: none;
+}
+
+header {
+  /* justify-content: ; */
+}
+
+header, header ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+h2 + .user_review {
+  border-top: 1px solid black;
+}
+
+/* This is useful when implementing a grid system so that all image elements
+will take up 100% width of their containers */
+img {
+  /* display: flex; */
+  
+  width: 100%;
+  align-self: center;
+  /* flex: 1; */
+}
+
+nav ul li {
+  /* display: flex; */
+  padding: 20px;
+  /* background-color: rgb(165, 181, 197); */
+  /* flex-direction: row; */
+}
+
+
+
+/* nav {
+  display: flex;
+  flex-direction: column;
+} */
